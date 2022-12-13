@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Quick";
+  src: url(./Roboto-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quick";
+}
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+body {
+  background: black;
+  color: #fff;
+  background-image: url("https://picsum.photos/1400/900");
+}
+.logo {
+  float: left;
+  width: 50%;
+  padding-top: 20px;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.nav_ul {
+  padding-top: 20px;
+  float: right;
+  width: 50%;
+  list-style: none;
+}
+.list_item {
+  display: inline-block;
+  padding: 10px;
+}
+.nav_ul .list_item a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+main {
+  width: 100%;
+  height: auto;
+}
+.hero {
+  width: 100%;
+  height: auto;
+  padding: 8rem 0rem;
+}
+.parent_cards {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.card {
+  width: 25%;
+  height: auto;
+  text-align: center;
+  display: inline-block;
+  margin: 1rem;
+}
+.card_img_top {
+  border-radius: 15px;
+  padding: 20px;
+}
+.card_title {
+  font-size: 28px;
+  padding: 15px;
+}
+.card_text {
+  font-size: 17px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  line-height: 25px;
+  padding-bottom: 10px;
+}
+.card_btn {
+  padding: 0.5rem 1rem;
+  font-size: 19px;
+  margin-right: 0.5rem;
+  border-radius: 17px;
+  border: 1px solid transparent;
+}
